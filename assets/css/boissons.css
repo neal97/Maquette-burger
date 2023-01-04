@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Homeday";
+    src: url("../fonts/Homeday.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  button{
+    cursor: pointer;
+}
+a{
+    color: white;
+}
+  header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+  }
+
+header button{
+    color: white;
+    background-color: #d9add6;
+    border: 0px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    width: 8rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+#block1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+#hautd{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+#hautd h2{
+    font-family:"Homeday" ;
+    color:#d9add6;
+    
+}
+
+#texteb{
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 10rem;
+}
+
+#blockcarre{
+    display: flex;
+    align-items: center;
+}
+
+#blockcarre p{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #576d8b;
+
+}
+
+.carre{
+    background-color: #adb8c6;
+    height: 80px;
+    width: 80px;
+    border-radius: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#carre{
+    background-color: #adb8c6;
+    height: 100px;
+    width: 100px;
+    border-radius: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#blockcarre img{
+    height: 60px;
+    width: 60px;
+    border-radius: 1rem;
+
+}
+
+.petitc{
+    background-color: #d9d9d9;
+    height: 60px;
+    width: 60px;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 4px black;
+
+}
+
+#petitc{
+    background-color: #d9d9d9;
+    height: 80px;
+    width: 80px;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 4px black;
+}
+
+.trait{
+    height: 8px;
+    width: 20px;
+    background-color: #adb8c6;
+}
+ 
+#traitf{
+    height: 8px;
+    width: 80px;
+    background-color: #adb8c6;
+
+}
+
+.traitclick{
+    height: 4px;
+    width: 20px;
+    background-color: #adb8c6;
+}
+
+#click{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 23rem;
+}
+
+.hr hr{
+    height: none;
+	border: none;
+	border-top: 4px dashed #576d8b;
+    width:100% ;
+    margin-top: 1rem;
+   
+}
+
+#block2{
+
+    display: flex;
+    padding: 2rem;
+    font-size: 2em;
+    justify-content: center;
+}
+
+#block2 img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 1rem;
+}
+
+#block2 input{
+    width: 3rem;
+    height: 3rem;
+    border: solid gray 4px
+}
+
+.boissons{
+    margin: 1rem;
+    display: flex;
+    width: 35rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boissonsimg{
+    margin: 1rem;
+}
+
+#boissonsg {
+    margin-right: 2rem;
+}
+
+#boissonsd {
+    margin-left: 2rem;
+}
+
+
+section button{
+    color: white;
+    background-color: #d9add6;
+    border: 0px;
+    padding: 0.8rem;
+    font-size: 2em;
+    border-radius: 0.3rem;
+    width: 25rem;
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    margin: 3rem;
+}
+
+
+footer{
+    display: flex;
+    background-color: #102940;
+    height: 14rem;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3em;
+    align-items: center;
+    padding: 4rem;
+}
+
+#logo img{
+
+    height: 60px;
+    width: 60px;
+    margin: 0.5rem;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+
+#foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
+
+#foot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
+
+#foot3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 15rem;
+}
+
+
+#foot4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}

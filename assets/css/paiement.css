@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Homeday";
+    src: url("../fonts/Homeday.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  button{
+    cursor: pointer;
+}
+a{
+    color: white;
+}
+  header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+  }
+  header button{
+    color: white;
+    background-color: #d9add6;
+    border: 0px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    width: 8rem;
+}
+#block1{
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#hautd{
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#click{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18rem;
+}
+
+.traitclick{
+    height: 4px;
+    width: 20px;
+    background-color: #adb8c6;
+}
+
+#trait{
+    height: none;
+	border: none;
+	border-top: 4px dashed #576d8b;
+    
+    margin-top: 1rem;
+    margin: 4rem;
+}
+
+.trait{
+    height: none;
+	border: none;
+	border-top: 4px dashed #576d8b;
+    
+    
+    
+}
+
+#traith{
+    height: none;
+	border: none;
+	border-top: 4px dashed #576d8b;
+    width: 88rem;
+    margin: auto;
+   
+
+}
+
+#paydroit{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#hautd h2 {
+    color:#d9add6 ;
+    font-family:"Homeday" ;
+}
+
+#hautg{
+    background-color: #d9d9d9;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    height: 5rem;
+    justify-content: center;
+    font-weight: bold;
+    color: #494c4f;
+}
+
+#block2{
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+    font-size: 2em;
+    font-weight: bold;
+    color: #494c4f;
+}
+#block2 input{
+    width: 3rem;
+    height: 3rem;
+    border: solid gray 4px
+}
+
+.paiement{
+    display: flex;
+    width: 35rem;
+    height: 18rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.paiement img{
+    height: 100px;
+    width: 100px;
+}
+
+
+#textepay{
+    border: solid 8px #494c4f;
+    width: 26rem;
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    align-self: center;
+}
+
+section button{
+    color: white;
+    background-color: #d9add6;
+    border: 0px;
+    padding: 0.8rem;
+    font-size: 2em;
+    border-radius: 0.3rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 3rem;
+}
+
+
+footer{
+    display: flex;
+    background-color: #102940;
+    height: 14rem;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3em;
+    align-items: center;
+    padding: 4rem;
+}
+
+#logo img{
+
+    height: 60px;
+    width: 60px;
+    margin: 0.5rem;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+
+#foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
+
+#foot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
+
+#foot3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 15rem;
+}
+
+
+#foot4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}

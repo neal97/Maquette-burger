@@ -1,0 +1,390 @@
+@font-face {
+    font-family: "Homeday";
+    src: url("../fonts/Homeday.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+a{
+    color: white;
+}
+
+header{
+    background-image: url(../images/banniere.webp);
+    height: 38rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+    background-size: cover;
+}
+
+button{
+    cursor: pointer;
+}
+
+#hautd{
+    display: flex;
+    flex-direction: column;
+}
+
+#boutton{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#boutton button{
+    color: white;
+    background-color: #d9add6;
+    border: 0px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    width: 8rem;
+}
+
+ul{
+    display: flex;
+
+}
+
+header li {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#sec1{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+#container1{
+
+    font-size: 2rem;
+
+    display: flex;
+    padding: 4rem;
+    
+
+   
+}
+
+#container2{
+    color: #62666b;
+}
+
+#resto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    
+   
+}
+
+#imgresto{
+        height: 450px;
+        width: 450px;
+}
+
+#titi{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30rem;
+}
+
+#titip{
+    color: #979797;
+}
+#suite{
+    font-size: 1.5rem;
+}
+
+#container2{
+    font-size: 2rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+#burger{
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+}
+
+#burger2 {
+    display: flex;
+    width: 52rem;
+    justify-content: space-between;
+}
+
+.fleche{
+    height: 2rem;
+    width: 11px;
+    
+}
+
+#flecheg,#fleched{
+    display: flex;
+    align-items: center;
+}
+
+.numburger img{
+    height: 220px;
+    width: 230px;
+    
+}
+
+
+.numburger{
+    font-size: 0.7em;
+    text-align: center;
+    color: black;
+    font-size: 0.6em;
+}
+
+ h2 {
+    font-family: "Homeday";
+    color:#d9add6 ;
+}
+
+hr{
+	height: none;
+	border: none;
+	border-top: 4px dashed #576d8b;
+    width: 28rem;
+    margin: 3rem;
+}
+
+#actus{
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.actus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.actus button {
+    
+        background-color: #494c4f;
+        width: 7rem;
+        height: 3rem;
+        border-radius: 0.3rem;
+        border: 0px;
+        font-size: 1em;
+        color: white;
+    
+}
+
+.actusb{
+    padding: 1rem;
+    text-align: center;
+    color: #5f6368;
+    width:18rem;
+}
+
+.actustitre{
+    padding: 1rem;
+    font-size: larger;
+}
+
+#actus2 img{
+    height: 22rem;
+    width: 25rem;
+}
+
+#actus h2 {
+    margin: 1rem;
+}
+
+
+
+#actus2{
+    display: flex;
+    padding: 3rem;
+    
+    align-items: center;
+    
+    justify-content: space-around;
+}
+
+.rondp{
+border-radius:50%;
+width:25px;
+height:25px;
+border:4px solid #576d8b;
+margin: 0.3rem; 
+}
+
+.rondg{
+    border-radius:50%;
+    width:45px;
+    height:45px;
+    border:4px solid #576d8b;
+    margin: 0.1rem; 
+
+}
+
+#sec3{
+    display: flex;
+    background-color: #eeeeee;
+    height: 20rem;
+    justify-content:center ;
+    align-items: center;
+}
+
+#news{
+    background-color: #576d8b;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+#newsg{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    padding-right: 6rem;
+    justify-content: flex-end;
+    
+}
+
+
+#newsd{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    
+}
+
+#inputnews{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    color: #d9add6;
+    
+
+}
+
+#newsici{
+    margin: 1rem;
+    display: flex;
+    
+    font-size: 0.7em;
+    color: white;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+}
+
+#textform{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+#form input{
+    width: 27rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    border: 0px;
+    margin-left: 1rem;
+}
+
+#form button{
+    background-color: #b39ac0;
+    border: 0px;
+    width: 6rem;
+    border-radius: 0.6rem;
+    height: 5rem;
+    padding: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+
+footer{
+    display: flex;
+    background-color: #102940;
+    height: 14rem;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3em;
+    align-items: center;
+    padding: 4rem;
+}
+
+#logo img{
+
+    height: 60px;
+    width: 60px;
+    margin: 0.5rem;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+
+#foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
+
+#foot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
+
+#foot3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 15rem;
+}
+
+
+#foot4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10rem;
+}
